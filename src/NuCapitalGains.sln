@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{1829C488-7A7C-43AD-BDCC-E9B55D69257D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuCapitalGains.Core", "NuCapitalGains.Core\NuCapitalGains.Core.csproj", "{2FB3A193-0D34-4153-A6F1-46D86BD7298E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{33D72F19-01D5-44CA-9E47-2DC376EB5CF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuCapitalGains.Infra", "NuCapitalGains.Infra\NuCapitalGains.Infra.csproj", "{A07CBC6D-B7A8-408C-8E34-B09F1552BE66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{434C06E6-8775-4AB3-B8F0-5B563D6AD0E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuCapitalGains.Tests", "NuCapitalGains.Tests\NuCapitalGains.Tests.csproj", "{D66AB3EB-6727-430E-AA09-07671628D044}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{6EA41F36-6F78-42E0-8F8D-A127C5D0DE50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuCapitalGains.Application", "NuCapitalGains.Application\NuCapitalGains.Application.csproj", "{8B718719-E9B6-439A-86D1-28AC84C11D3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FB3A193-0D34-4153-A6F1-46D86BD7298E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FB3A193-0D34-4153-A6F1-46D86BD7298E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FB3A193-0D34-4153-A6F1-46D86BD7298E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FB3A193-0D34-4153-A6F1-46D86BD7298E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07CBC6D-B7A8-408C-8E34-B09F1552BE66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07CBC6D-B7A8-408C-8E34-B09F1552BE66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07CBC6D-B7A8-408C-8E34-B09F1552BE66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07CBC6D-B7A8-408C-8E34-B09F1552BE66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D66AB3EB-6727-430E-AA09-07671628D044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D66AB3EB-6727-430E-AA09-07671628D044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D66AB3EB-6727-430E-AA09-07671628D044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D66AB3EB-6727-430E-AA09-07671628D044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B718719-E9B6-439A-86D1-28AC84C11D3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B718719-E9B6-439A-86D1-28AC84C11D3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B718719-E9B6-439A-86D1-28AC84C11D3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B718719-E9B6-439A-86D1-28AC84C11D3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEB5AD87-55CB-4D6E-A997-0729BB9F005B}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2FB3A193-0D34-4153-A6F1-46D86BD7298E} = {1829C488-7A7C-43AD-BDCC-E9B55D69257D}
+		{A07CBC6D-B7A8-408C-8E34-B09F1552BE66} = {33D72F19-01D5-44CA-9E47-2DC376EB5CF3}
+		{D66AB3EB-6727-430E-AA09-07671628D044} = {434C06E6-8775-4AB3-B8F0-5B563D6AD0E1}
+		{8B718719-E9B6-439A-86D1-28AC84C11D3E} = {6EA41F36-6F78-42E0-8F8D-A127C5D0DE50}
+	EndGlobalSection
+EndGlobal
