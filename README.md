@@ -1,12 +1,10 @@
-# NuCapitalGains
-
 ## 📌 Descrição
 
 NuCapitalGains é um aplicativo de linha de comando que processa operações de compra e venda de ações, calculando o imposto devido com base nas regras de ganho de capital.
 
 ## 🏗 **Arquitetura do Projeto**
 
-A arquitetura do **NuCapitalGains** segue os princípios da **Clean Architecture**, organizando o código de forma modular e garantindo **baixo acoplamento e alta coesão**. Essa abordagem facilita **testabilidade, manutenção e escalabilidade** do sistema.
+A arquitetura do **NuCapitalGains** segue os princípios da **Clean Architecture**, organizando o código de forma modular garantindo **baixo acoplamento e alta coesão**. Essa abordagem facilita **testabilidade, manutenção e escalabilidade** do sistema.
 
 ### ✅ **Camadas do Projeto**
 
@@ -111,6 +109,12 @@ Antes de rodar o projeto, certifique-se de ter instalado:
 
 ## ▶️ **Executando o Aplicativo no Console**
 
+### 🔹 **Buildando o Projeto**
+
+```sh
+dotnet build src/NuCapitalGains.Application
+```
+
 ### 🔹 **Rodando com Entrada Manual**
 
 ```sh
@@ -144,6 +148,10 @@ dotnet run --project src/NuCapitalGains.Application < input.txt > output.txt
 ## 🧪 **Rodando os Testes**
 
 ```sh
+dotnet build src/NuCapitalGains.Tests
+```
+
+```sh
 dotnet test src/NuCapitalGains.Tests
 ```
 
@@ -152,5 +160,3 @@ Para mais detalhes:
 ```sh
 dotnet test src/NuCapitalGains.Tests --logger "console;verbosity=detailed"
 ```
-
-Agora seu projeto segue boas práticas e está bem documentado!
