@@ -81,7 +81,7 @@ public static void Main()
 
 ### **4️⃣ Camada `Tests` (Testes Unitários e de Integração)**
 
-- **Testes unitários** verificam métodos individuais no `Core`.
+- **Testes unitários** verificam métodos individuais no `Core` e servços na `Infra`.
 - **Testes de integração** rodam a aplicação inteira e validam a saída esperada.
 
 ## 📂 **Estrutura do Projeto**
